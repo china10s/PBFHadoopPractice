@@ -1,0 +1,8 @@
+CREATE TABLE stations (name STRING,value STRING)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.contrib.serde2.RegexSerDe'
+WITH SERDEPROPERTIES(
+  "input.regex"="(\\d{22})(\\d{5}).*"
+);
+
+LOAD DATA LOCAL INPATH "/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/input/normal/1901"
+INTO TABLE stations;

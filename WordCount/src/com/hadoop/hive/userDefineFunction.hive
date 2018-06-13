@@ -1,0 +1,13 @@
+CREATE TABLE arrays (x ARRAY<STRING>)
+ROW FORMAT DELIMITED
+  FIELDS TERMINATED BY '\001'
+  COLLECTION ITEMS TERMINATED BY '\002';
+
+
+INSERT INTO arrays SELECT ARRAY("a","b");
+INSERT INTO arrays SELECT ARRAY("c","d","e");
+
+CREATE FUNCTION strip AS 'com.hadoop.hive.strip'
+USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar'
+
+SELECT strip('   bee   ');

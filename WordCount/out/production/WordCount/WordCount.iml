@@ -69,5 +69,18 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="mrunit-1.1.0-hadoop2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/apache-hive-2.3.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/apache-hive-2.3.3/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/apache-hive-2.3.3/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/apache-hive-2.3.3/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

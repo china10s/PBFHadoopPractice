@@ -1,0 +1,5 @@
+CREATE TABLE bucket_users(id INT,name STRING)
+CLUSTERED BY (id) SORTED BY (id ASC) INTO 4 BUCKETS;
+
+
+INSERT INTO bucket_users SELECT 1,"Tom";

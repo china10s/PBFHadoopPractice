@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="2cfac0b7-2ee4-4370-8354-d03c7060d5df" />
+          <option name="name" value="DDL data source" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/apache-hive-2.3.3/bin/hive" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
