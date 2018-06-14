@@ -16,3 +16,8 @@ SELECT strip('   bee   ');
 CREATE TEMPORARY FUNCTION maximun AS 'com.hadoop.hive.aggregateUserDefineFunc'
 USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar';
 SELECT maximun(id) FROM bucket_users;
+
+--ExUDAF
+CREATE TEMPORARY FUNCTION meanmun AS 'com.hadoop.hive.aggregateUserDefineFuncEx'
+USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar';
+SELECT meanmun(id) FROM bucket_users;
