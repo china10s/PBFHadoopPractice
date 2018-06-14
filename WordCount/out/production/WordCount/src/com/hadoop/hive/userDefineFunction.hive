@@ -6,3 +6,11 @@ ROW FORMAT DELIMITED
 
 INSERT INTO arrays SELECT ARRAY("a","b");
 INSERT INTO arrays SELECT ARRAY("c","d","e");
+
+CREATE FUNCTION strip AS 'com.hadoop.hive.strip'
+USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar'
+SELECT strip('   bee   ');
+
+CREATE TEMPORARY FUNCTION maximun AS 'com.hadoop.hive.aggregateUserDefineFunc'
+USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar'
+SELECT maximun(id) FROM bucket_users
