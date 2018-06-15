@@ -1,21 +1,21 @@
-CREATE TABLE arrays (x ARRAY<STRING>)
-ROW FORMAT DELIMITED
-  FIELDS TERMINATED BY '\001'
-  COLLECTION ITEMS TERMINATED BY '\002';
-
-
-INSERT INTO arrays SELECT ARRAY("a","b");
-INSERT INTO arrays SELECT ARRAY("c","d","e");
-
--- UDF
-CREATE FUNCTION strip AS 'com.hadoop.hive.strip'
-USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar'
-SELECT strip('   bee   ');
-
--- UDAF
-CREATE TEMPORARY FUNCTION maximun AS 'com.hadoop.hive.aggregateUserDefineFunc'
-USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar';
-SELECT maximun(id) FROM bucket_users;
+-- CREATE TABLE arrays (x ARRAY<STRING>)
+-- ROW FORMAT DELIMITED
+--   FIELDS TERMINATED BY '\001'
+--   COLLECTION ITEMS TERMINATED BY '\002';
+--
+--
+-- INSERT INTO arrays SELECT ARRAY("a","b");
+-- INSERT INTO arrays SELECT ARRAY("c","d","e");
+--
+-- -- UDF
+-- CREATE FUNCTION strip AS 'com.hadoop.hive.strip'
+-- USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar'
+-- SELECT strip('   bee   ');
+--
+-- -- UDAF
+-- CREATE TEMPORARY FUNCTION maximun AS 'com.hadoop.hive.aggregateUserDefineFunc'
+-- USING JAR '/Users/guest/Projects/hadoop/PBFHadoopPractice/WordCount/out/artifacts/WordCount/WordCount.jar';
+-- SELECT maximun(id) FROM bucket_users;
 
 --ExUDAF
 CREATE TEMPORARY FUNCTION meanmun AS 'com.hadoop.hive.aggregateUserDefineFuncEx'

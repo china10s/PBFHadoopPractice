@@ -14,14 +14,17 @@ public class aggregateUserDefineFuncEx extends UDAF{
         private ExteraValue exteraValue;
 
         public void init(){
-            exteraValue = new ExteraValue();
-            exteraValue.mean = 0;
-            exteraValue.sum = 0;
+            exteraValue = null;
         }
 
         public boolean iterate(IntWritable value){
             if (value == null){
-                return false;
+                return true;
+            }
+            if(exteraValue == null){
+                exteraValue = new ExteraValue();
+                exteraValue.mean = 0;
+                exteraValue.sum = 0;
             }
             exteraValue.mean = (exteraValue.mean*exteraValue.sum+value.get())/(++exteraValue.sum);
             return true;
@@ -32,6 +35,14 @@ public class aggregateUserDefineFuncEx extends UDAF{
         }
 
         public boolean merge(ExteraValue exValue){
+            if (exValue == null){
+                return true;
+            }
+            if (exteraValue == null){
+                exteraValue = new ExteraValue();
+                exteraValue.mean = 0;
+                exteraValue.sum = 0;
+            }
             ExteraValue newExteraValue = new ExteraValue();
             newExteraValue.sum = exteraValue.sum+exValue.sum;
             newExteraValue.mean = (exteraValue.mean*exteraValue.sum+
@@ -41,6 +52,9 @@ public class aggregateUserDefineFuncEx extends UDAF{
         }
 
         public IntWritable terminate(){
+            if (exteraValue == null){
+                return null;
+            }
             return new IntWritable(exteraValue.mean);
         }
     }
