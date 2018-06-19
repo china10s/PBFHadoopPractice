@@ -72,6 +72,19 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="file://$USER_HOME$/spark-2.3.0/jars" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/spark-2.3.0/jars" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/spark-2.3.0/jars" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/spark-2.3.0/jars" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="file://$USER_HOME$/apache-hive-2.3.3/lib" />
         </CLASSES>
         <JAVADOC />
