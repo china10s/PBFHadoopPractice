@@ -48,6 +48,7 @@ public class wordCountSpark {
                 System.out.println(stringIntegerTuple2._1+" -- "+stringIntegerTuple2._2);
             }
         });
+        wordsCount.saveAsTextFile("output");
         //关闭
         sc.close();
     }

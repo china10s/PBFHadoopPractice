@@ -33,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wordCountSpark.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wordCountSpark.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hadoop/spark/wordCountSpark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="73">
+              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,22 +45,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LZ4BlockInputStream.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/spark-2.3.0/jars/lz4-java-1.4.0.jar!/net/jpountz/lz4/LZ4BlockInputStream.class">
+      <file leaf-file-name="DAGScheduler.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/scheduler/DAGScheduler.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="-3867">
+              <caret line="205" column="5" lean-forward="false" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCount.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordCount.iml">
+      <file leaf-file-name="ExampleClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hadoop/hbase/ExampleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="215">
+              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleRowCounter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hadoop/hbase/SimpleRowCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractClientScanner.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/AbstractClientScanner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/HTable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="481" column="52" lean-forward="true" selection-start-line="481" selection-start-column="52" selection-end-line="481" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scan.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Scan.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAGScheduler$.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/scheduler/DAGScheduler$.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +151,8 @@
       <find>LZ4BlockInputStream</find>
       <find>init</find>
       <find>lz</find>
+      <find>dagScheduler</find>
+      <find>sc</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -143,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/com/hadoop/hive/userDefineFunction.hive" />
         <option value="$PROJECT_DIR$/src/com/hadoop/hive/aggregateUserDefineFuncEx.java" />
         <option value="$PROJECT_DIR$/src/com/hadoop/spark/wordCountSpark.java" />
+        <option value="$PROJECT_DIR$/src/com/hadoop/hbase/ExampleClient.java" />
       </list>
     </option>
   </component>
@@ -153,10 +210,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="83" />
-    <option name="width" value="1284" />
-    <option name="height" value="793" />
+    <option name="x" value="110" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -229,11 +286,7 @@
               <item name="WordCount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WordCount" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,15 +316,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.wordCountSpark">
-    <configuration name="ConfigurationPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ExampleClient">
+    <configuration name="ExampleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.configuration.*" />
+          <option name="PATTERN" value="com.hadoop.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.configuration.ConfigurationPrinter" />
+      <option name="MAIN_CLASS_NAME" value="com.hadoop.hbase.ExampleClient" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -502,19 +555,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.HdfsHandle" />
       <item index="1" class="java.lang.String" itemvalue="Application.WordCount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ConfigurationPrinter" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MaxTemperaturesDriver" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SortDataPreprocessor" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SortByTemperatureUsingTotalOrderPartitioner" />
-      <item index="6" class="java.lang.String" itemvalue="Application.wordCountSpark" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaxTemperaturesDriver" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SortDataPreprocessor" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SortByTemperatureUsingTotalOrderPartitioner" />
+      <item index="5" class="java.lang.String" itemvalue="Application.wordCountSpark" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ExampleClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.wordCountSpark" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SortByTemperatureUsingTotalOrderPartitioner" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SortDataPreprocessor" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MaxTemperaturesDriver" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ConfigurationPrinter" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ExampleClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.wordCountSpark" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SortByTemperatureUsingTotalOrderPartitioner" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SortDataPreprocessor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaxTemperaturesDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +588,7 @@
       <workItem from="1528438241316" duration="23390000" />
       <workItem from="1528860375993" duration="8930000" />
       <workItem from="1528943601540" duration="2049000" />
-      <workItem from="1528977692353" duration="15833000" />
+      <workItem from="1528977692353" duration="25549000" />
     </task>
     <servers />
   </component>
@@ -572,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89501000" />
+    <option name="totallyTimeSpent" value="99217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,24 +637,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="83" width="1284" height="793" extended-state="0" />
-    <editor active="true" />
+    <frame x="110" y="23" width="1440" height="805" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740742" sideWeight="0.49710146" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5451852" sideWeight="0.49676898" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54452556" sideWeight="0.49676898" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740742" sideWeight="0.49710146" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4044796" sideWeight="0.510467" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4237037" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37518248" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34452736" sideWeight="0.489533" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37700146" sideWeight="0.489533" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25764894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22889842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -609,7 +661,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40296295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3240876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -653,91 +705,11 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hadoop/configuration/JobBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="58" column="55" lean-forward="true" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hadoop-2.9.1-src/hadoop-tools/hadoop-rumen/src/main/java/org/apache/hadoop/tools/rumen/TraceBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/../hadoop-2.9.1-src/hadoop-tools/hadoop-rumen/src/main/java/org/apache/hadoop/tools/rumen/JobBuilder.java" />
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapred/InputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapred/FileInputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapred/SequenceFileInputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapreduce/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="493" column="16" lean-forward="false" selection-start-line="493" selection-start-column="16" selection-end-line="493" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hadoop/sort/NcdcRecordParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapred/lib/InputSampler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapred/lib/TotalOrderPartitioner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/common/hadoop-common-2.9.1.jar!/org/apache/hadoop/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.9.1.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="490" column="0" lean-forward="false" selection-start-line="490" selection-start-column="0" selection-end-line="490" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/part-m-00000" />
     <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.9.1.jar!/org/apache/hadoop/mapreduce/lib/partition/TotalOrderPartitioner.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -894,14 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/function/FlatMapFunction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -953,14 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/AbstractJavaRDDLike.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/spark-2.3.0/jars/scala-library-2.11.8.jar!/scala/collection/mutable/ResizableArray$class.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -973,14 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="637" column="36" lean-forward="false" selection-start-line="637" selection-start-column="27" selection-end-line="637" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/scheduler/DAGScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="2513" column="0" lean-forward="false" selection-start-line="2513" selection-start-column="0" selection-end-line="2513" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1001,10 +949,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCount.iml">
+    <entry file="file://$PROJECT_DIR$/src/com/hadoop/hive/strip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/function/VoidFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1594">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1017,21 +981,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hadoop/hive/strip.java">
+    <entry file="file://$PROJECT_DIR$/WordCount.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/function/FlatMapFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/JavaRDDLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/AbstractJavaRDDLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hadoop/spark/wordCountSpark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="73">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/JavaSparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="142" column="73" lean-forward="true" selection-start-line="142" selection-start-column="73" selection-end-line="142" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="e#171189#171190#0" expanded="true" />
+            <element signature="e#171302#171303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/scheduler/DAGScheduler$.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/spark-2.3.0/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/scheduler/DAGScheduler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3867">
+          <caret line="205" column="5" lean-forward="false" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/hadoop-2.9.1/share/hadoop/common/hadoop-common-2.9.1.jar!/org/apache/hadoop/conf/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/HBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="57" column="27" lean-forward="false" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Scan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/HTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="481" column="52" lean-forward="true" selection-start-line="481" selection-start-column="52" selection-end-line="481" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-hive-2.3.3/lib/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/AbstractClientScanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hadoop/hbase/ExampleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hadoop/hbase/SimpleRowCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
